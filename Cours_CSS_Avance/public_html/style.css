@@ -1,0 +1,158 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 12 sept. 2023, 13:44:43
+    Author     : pcruchet
+*/
+
+div.survol:hover
+{
+    background-color: greenyellow;
+}
+
+div.clique:active
+{
+    background-color: red;
+}
+
+div.bordure
+{
+    border: 3px green ridge;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align: center;
+}
+
+div.ombre
+{
+    box-shadow: 10px 10px 20px 5px violet;
+    background-color: yellow;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+div.bordureImage
+{
+    border: 15px transparent solid;
+    border-image: url(imageBordure.jpg) 35 35 stretch; /* round  ou stretch*/
+    text-align: center;
+    width: 300px;
+}
+
+div.boiteLinear
+{
+    background: linear-gradient(to left, yellow, red);
+    width: 200px;
+    height: 200px;
+}
+
+div.boiteRadiale
+{
+    background: radial-gradient(100px, yellow, red);
+    width: 200px;
+    height: 200px;
+}
+
+div.pasRotation
+{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+}
+
+div.rotation
+{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    transform: rotate(15deg);
+}
+
+div.pasEchelle
+{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 580px;
+    top: 300px;
+}
+
+div.echelle
+{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 580px;
+    top: 300px;
+    transform: scale(2,0.5);
+}
+
+div.sansOblique
+{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 980px;
+    top: 300px;
+}
+
+div.oblique
+{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 980px;
+    top: 300px;
+    transform: skew(-45deg,15deg);
+}
+
+
+#titre
+{
+    width: 500px;
+    border: 3px green ridge;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 640px)
+{
+    div.bigCarre
+    {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 620px;
+        background-color: yellowgreen;
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 800px)
+{
+    div.bigCarre
+    {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 7800px;
+        background-color: blue;
+        height: 320px;
+    }
+}
